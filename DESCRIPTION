@@ -1,0 +1,14 @@
+Package: PredictoR
+Type: Package
+Title: Predicts Stock Price Movement
+Version: 0.1.0
+Author: Brett Harrell
+Maintainer: Brett Harrell <brettharrell157@gmail.com
+Description: This package predicts where the stock price will be at tomorrow compared to today's closing price.
+License: GPL-2
+LazyData: FALSE
+Imports:
+  quantmod,stats,xts
+Suggests:
+  knitr
+RoxygenNote: 6.0.1
